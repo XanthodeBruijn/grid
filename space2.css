@@ -1,0 +1,99 @@
+* {
+	margin: 0; 
+	padding: 0;
+}
+
+body {
+	background-image: url(bg.png);
+	font-family: Tahoma;
+}
+
+#frame {
+    background-color: rgba(255,200,200,0.3);
+    width: 1020px;
+    margin: 10px auto;
+    padding-bottom: 1px;
+}
+
+header nav ul {
+	list-style-type: none;
+	background-color: rgba(255,255,200,0.3);
+}
+
+nav {
+	height: 40px;
+	padding: 10px;
+}
+
+#content {
+    width: 100%;
+    display: flex;
+    padding-left: 10px;
+    padding-top: 10px;
+    padding-right: 10px;
+			
+}
+		
+nav li {
+	display: inline-block;
+	padding: 12px 0px 10px 10px;
+			
+}
+		
+nav li a {
+	text-decoration: none;
+	color: #000;
+	font-weight: bold;
+
+}
+		
+main {
+	border: 1px black solid;
+	background-color: rgba(200,200,255,0.3);
+	width: 670px;
+	padding: 10px;
+}
+		
+aside {
+	border: 1px black solid;
+	background-color: rgba(200,255,200,0.3);
+    width: 285px;
+    padding: 10px;
+    padding-bottom: 20px;	
+}
+
+body article {
+	background-color: rgba(200,200,200,0.6);
+}
+		
+header {
+}
+
+h1.title {
+    text-align: center;
+    padding-top: 30px;
+    padding-bottom: 20px;
+}
+
+h1.article {
+    margin-bottom: 23px;
+}
+
+h1.asideArticle {
+    margin-bottom: 23px;
+    padding-top: 6px;
+}
+
+footer {
+    background-color: rgba(255,255,200,0.3);
+    text-align: center;
+    font-weight: bold;
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-bottom: 10px;
+}
+
+article {
+    margin-top: 20px;
+    height: 80px;
+}
